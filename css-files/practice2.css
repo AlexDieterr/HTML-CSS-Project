@@ -1,0 +1,24 @@
+.pfp{
+  border-radius: 100px;
+  vertical-align: middle;
+  width: 70px;
+}
+.search-bar{
+  vertical-align: middle;
+  border: none;
+  font-size: 25px;
+  margin-left: 10px;
+  width: 225px;
+}
+.button{
+  color: white;
+  background-color: rgb(44, 149, 219);
+  border: none;
+  border-radius: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}

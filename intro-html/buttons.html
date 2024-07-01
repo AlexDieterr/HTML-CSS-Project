@@ -1,0 +1,72 @@
+<style>
+  .amazon-link {
+    color: rgb(0, 113, 133);
+  }
+  .nike{
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+  }
+  .money{
+    color: green;
+    font-weight: bold;
+  }
+  .cart{
+    background-color: rgb(215, 215, 22);
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height:30px;
+    cursor: pointer;
+    transition:opacity 1s;
+    }
+    .buy{
+      background-color: orange;
+      border-radius: 8px;
+      border: none;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      transition:background-color 1s,
+      color 1s;
+      
+      
+    }
+    .cart:hover{
+    opacity: .7;
+    }
+    .cart:active{
+     opacity:.2;
+    }
+    .buy:hover{
+    opacity: .8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+</style>
+
+
+
+<a class=".amazon-link" href="https://www.amazon.com/primeday?ref_=nav_cs_td_pd_dt_cr">
+  Back to Amazon
+</a>
+
+<p class="Nike">
+Nike Black Running Shoes
+</p>
+
+<p class="money">
+  $39 - in stock.
+</p>
+
+<p> 
+Free delivery tomorrow.
+</p>
+
+<button class="cart">
+Add to Cart
+</button>
+
+<button class="buy">
+Buy Now
+</button>
